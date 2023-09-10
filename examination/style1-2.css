@@ -1,0 +1,45 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+/* リセットCSSここまで */
+
+/* 以下からCSSを記述すること */
+
+.contents{
+  background-color: lightgray;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-content{
+  background-color: blue;
+  height: 100px;
+  width: 300px;
+}
+
+.middle-content{
+  background-color: green;
+  height: 100px;
+  width: 300px;
+}
+
+.bottom-content{
+  background-color: red;
+  height: 100px;
+  width: 300px;
+}

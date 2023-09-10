@@ -1,0 +1,56 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+/* リセットCSSここまで */
+
+.bottom-content {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+/* 以下からCSSを記述すること */
+
+/* .contact-form{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+} */
+
+.heading-name{
+  text-align: right;
+}
+
+.area{
+  display: block;
+}
+.small-field{
+  display: block;
+  width: 400px;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid lightgray;
+  font-size: 16px;
+}
+
+.send{
+  width: 200px;
+  padding: 15px;
+  background-color: lightblue;
+  color: white;
+  /* display: block;
+  margin: 0 auto; */
+}

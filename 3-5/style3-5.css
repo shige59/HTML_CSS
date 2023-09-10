@@ -1,0 +1,48 @@
+header{
+  height: 100px;
+  width: 100%;
+  background-color: lightgray;
+ }
+ 
+ .main{
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
+ /*
+  概念全体の名前はFlexbox
+  まずはdisplay:flexで横並びに。
+  （本来のdisplayは、要素の種類を変えられる。ブロックとかインラインとか。）
+  （flexは並びを自由に変えられる設定）
+  justifyは主軸方向（左右）の配置。
+  alignは交差軸方向（上下）の配置。
+  flex-directionで縦横とか昇順・降順。
+  適用するものの親要素に。
+  */
+ 
+ .left-content{
+  width: 300px;
+  height: 300px;
+  background-color: lightgreen;
+ }
+ 
+ .center-content{
+  width: 300px;
+  height: 300px;
+  background-color: skyblue;
+ }
+ 
+ .right-content{
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+ }
+ 
+ footer{
+  background-color: lightgray;
+  height: 100px;
+  width: 100%;
+ }
